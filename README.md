@@ -85,10 +85,8 @@ The workflow includes:
 ## File Structure
 
 Retinal-Disease-Detection/
-│
-├── DL_projecttt.ipynb
-
-└── README.txt
+  ─ DL_projecttt.ipynb
+  ─ README.txt
 
 ---
 
