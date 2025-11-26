@@ -3,8 +3,8 @@
 
 ---
 
-Author: Vikas G J
-B.Tech CSE (AIML) Presidency University Bengaluru 
+###Author: Vikas G J
+*B.Tech CSE (AIML) Presidency University Bengaluru*
 Project Duration: 2025
 
 ---
