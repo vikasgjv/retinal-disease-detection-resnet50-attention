@@ -24,13 +24,15 @@ The workflow includes:
 
 ### Project Summary
 ## Task 1: Data Preprocessing & Augmentation
-**Objective**: Prepare the retinal fundus images for deep learning-based classification.
-*Steps Covered*:
-    - Loading of fundus image dataset
-    - Image resizing, normalization, and label encoding
-    - Train-validation-test splitting
-    - Data augmentation techniques (rotation, zoom, flips)
-    - Ensuring balanced input distribution
+ 
+*Objective:  **content-Prepare the retinal fundus images for deep learning-based classification.
+•⁠  ⁠*Features Used*:
+  - Loading of fundus image dataset
+  - Image resizing, normalization, and label encoding
+  - Train-validation-test splitting
+  - Data augmentation techniques (rotation, zoom, flips)
+  - Ensuring balanced input distribution
+
 
 ---
 
