@@ -1,70 +1,102 @@
-Retinal-Disease-Detection
-Retinal Disease Detection using ResNet50 + Attention
+#Retinal-Disease-Detection
+#Retinal Disease Detection using ResNet50 + Attention Mechanism
+
+—
 
 Author: Vikas G J
+B.Tech CSE (AIML) Presidency University, Bengaluru Project Duration: 2025
 
-B.Tech CSE (AIML)
-Presidency University, Bengaluru
-Project Period: 2025
+—
 
-Overview
-This repository contains the complete implementation of a Retinal Disease Detection System built using ResNet50 with an Attention Mechanism. The project focuses on analyzing retinal fundus images to classify different retinal conditions with improved accuracy and interpretability.
-The model includes preprocessing, feature extraction, attention-based enhancement, training, evaluation, and visualization of performance metrics. This work is designed for academic learning, medical image analysis research, and deep learning experimentation.
+#Overview
+This repository contains the complete implementation of a Retinal Disease Detection System using a hybrid ResNet50 + Attention Mechanism model. The project focuses on detecting retinal diseases from fundus images through deep learning–based feature extraction, attention enhancement, and multi-class classification.
+The workflow includes:
+* Data preprocessing
+* Attention-based model architecture
+* Training and validation
+* Performance evaluation
+* Visualization of results
+
+—
+
 
 Project Summary
-1️⃣ Data Preprocessing & Preparation
-Imported and cleaned retinal fundus images
-Resized and normalized image data
-Converted labels into model-readable format
-Split dataset into training, validation, and testing sets
-Applied augmentations to improve generalization (rotation, flip, zoom)
+Task 1: Data Preprocessing & Augmentation
+* Objective: Prepare the retinal fundus images for deep learning-based classification.
+* Steps Covered:
+    * Loading of fundus image dataset
+    * Image resizing, normalization, and label encoding
+    * Train-validation-test splitting
+    * Data augmentation techniques (rotation, zoom, flips)
+    * Ensuring balanced input distribution
 
-2️⃣ Model Architecture: ResNet50 + Attention
-ResNet50 used as base feature extractor
-Added custom Attention Block to focus on disease-specific retinal regions
-Fully connected layers for classification
-Softmax output for multi-class prediction
-Compiled with:
-Optimizer: Adam
-Loss: Categorical Crossentropy
-Metrics: Accuracy, MAE
+—
 
-3️⃣ Training Process
-Trained the model on cleaned and augmented image dataset
-Visualized:
-Training & validation accuracy
-Training & validation loss
-Tuned hyperparameters such as batch size, epochs, and learning rate
-Ensured stable training using callbacks where needed
 
-4️⃣ Model Evaluation
-Evaluated the model on unseen test data using:
-Accuracy
-Loss
-Mean Absolute Error (MAE)
-Confusion Matrix (if implemented)
-Classification performance across multiple retinal categories
+Task 2: ResNet50 + Attention Model Architecture
+* Objective: Build an efficient deep learning model for retinal disease classification.
+* Architecture Components:
+    * ResNet50 pretrained backbone
+    * Custom Attention Layer
+    * Global Average Pooling
+    * Dense layers for classification
+    * Softmax output
+* Model Configuration:
+    * Optimizer: Adam
+    * Loss: Categorical Crossentropy
+    * Metrics: Accuracy, MAE
 
-5️⃣ Output & Interpretation
-The model predicts the retinal disease class for each input fundus image
-Attention mechanism helps in focusing on disease-related regions
-Visualization graphs show training progress and performance trends
+—
+
+Task 3: Model Training & Validation
+* Objective: Train the attention-based ResNet50 model on the processed dataset.
+* Steps Covered:
+    * Training with augmented data
+    * Monitoring training & validation accuracy
+    * Tracking model loss
+    * Adjusting hyperparameters (epochs, batch size, learning rate)
+* Outputs:
+    * Accuracy plots
+    * Loss plots
+
+—
+
+
+Task 4: Model Evaluation & Prediction Analysis
+* Objective: Evaluate the model on unseen retinal images.
+* Steps Covered:
+    * Evaluation on test dataset
+    * Metrics:
+        * Accuracy
+        * Loss
+        * Mean Absolute Error (MAE)
+    * Checking predictions on sample images
+    * Understanding model behavior with Attention
+
+—
+
 
 Tools & Libraries Used
-Python
-TensorFlow / Keras
-NumPy, Pandas
-Matplotlib
-OpenCV
-Google Colab / Jupyter Notebook
+* Python
+* TensorFlow / Keras
+* NumPy
+* Pandas
+* Matplotlib
+* OpenCV
+* Google Colab / Jupyter Notebook
 
 File Structure
+
 Retinal-Disease-Detection/
-DL_projecttt.ipynb/
-README.md
+│
+├── DL_projecttt.ipynb
+├── data/
+├── models/
+├── results/
+├── requirements.txt
+└── README.txt
+
+—
 
 Contact
-
-Vikas G J
-📧 Email: vikasgjv@gmail.com
-🌐 LinkedIn: linkedin.com/in/vikas-gj-979251296
+Vikas G J 📧 Email: vikasgjv@gmail.com 🌐 LinkedIn: linkedin.com/in/vikas-gj-979251296
