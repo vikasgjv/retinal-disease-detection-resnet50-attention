@@ -88,12 +88,12 @@ The workflow includes:
 ## File Structure
 
 Retinal-Disease-Detection
-  ─ DL_projecttt.ipynb
-  ─ README.txt
+  * DL_projecttt.ipynb
+  * README.txt
 
 ---
 
 ## Contact
-Vikas G J 
+* Vikas G J *
 📧 Email: vikasgjv@gmail.com 
 🌐 LinkedIn: linkedin.com/in/vikas-gj-979251296
