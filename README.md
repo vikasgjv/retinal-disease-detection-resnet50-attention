@@ -6,7 +6,7 @@
 Author: Vikas G J
 B.Tech CSE (AIML) Presidency University, Bengaluru Project Duration: 2025
 
-—--
+---
 
 # Overview
 This repository contains the complete implementation of a Retinal Disease Detection System using a hybrid ResNet50 + Attention Mechanism model. The project focuses on detecting retinal diseases from fundus images through deep learning–based feature extraction, attention enhancement, and multi-class classification.
@@ -17,7 +17,7 @@ The workflow includes:
 * Performance evaluation
 * Visualization of results
 
-—--
+---
 
 # Project Summary
 ## Task 1: Data Preprocessing & Augmentation
@@ -29,8 +29,7 @@ The workflow includes:
     * Data augmentation techniques (rotation, zoom, flips)
     * Ensuring balanced input distribution
 
-—--
-
+---
 
 ## Task 2: ResNet50 + Attention Model Architecture
 **Objective**: Build an efficient deep learning model for retinal disease classification.
@@ -45,7 +44,7 @@ The workflow includes:
     * Loss: Categorical Crossentropy
     * Metrics: Accuracy, MAE
 
-—--
+---
 
 ## Task 3: Model Training & Validation
 **Objective:** Train the attention-based ResNet50 model on the processed dataset.
@@ -58,7 +57,7 @@ The workflow includes:
     * Accuracy plots
     * Loss plots
 
-—--
+---
 
 ## Task 4: Model Evaluation & Prediction Analysis
 **Objective:** Evaluate the model on unseen retinal images.
@@ -71,7 +70,7 @@ The workflow includes:
     * Checking predictions on sample images
     * Understanding model behavior with Attention
 
-—--
+---
 
 
 ## Tools & Libraries Used
@@ -90,7 +89,7 @@ Retinal-Disease-Detection/
 ├── DL_projecttt.ipynb
 └── README.txt
 
-—--
+---
 
 ## Contact
 Vikas G J 
